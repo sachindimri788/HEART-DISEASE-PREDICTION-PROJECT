@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEART DISEASE PREDICTION </title>
+
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body background="/static/images/project.jpg">
+    <center>
+         <br>
+            <br>
+               <br>
+                  <br>
+    <form action="resu" method="get">
+       
+          <br>
+            <br>
+              <br>
+                <br>
+                  <br>
+                    <br>
+                      <br>
+                        <br>
+                          <br>
+                           <br>
+                            <br>
+                             <br>
+                              <br>
+                               <br>
+                                <br>
+                                 <br>
+                                  <br>
+                                   <br>
+                                    <br>
+                                     <br>
+                                      <br>
+                                        <br>
+                                        
+        <h1 style="border: 1px red solid;" class="hea"><strong>Enter The Value Of Heart Features</strong></h1>
+        
+    
+        
+		
+		<br>
+    	<input type="number" name="age" placeholder=" age" required="required" />
+        <input type="number" name="sex"  placeholder="sex" required="required" />
+		<input type="number" name="cp"  placeholder="cp" required="required" />
+        <input type="number" name="trestbps"  placeholder="trestbps" required="required" />
+            <input type="number" name="chol"   placeholder="chol" required="required" />
+    	
+        
+		
+    	<br>
+    	<input type="number"   name="fbs" placeholder="fbs" required="required" />
+        <input type="number"   name="restecg" placeholder="restecg" required="required" />
+		<input type="number"  name="thalach"  placeholder=" thalach" required="required" />
+        <input type="number"  name="exang"  placeholder="exang" required="required" />
+    <input type="number"  name="oldpeak"  placeholder=" oldpeak" required="required" />
+    	
+        
+			<br>
+
+
+      
+      <input type="number"  name="slope"  placeholder=" slope" required="required" />
+        <input type="number"  name="ca" placeholder="ca" required="required" />
+    <input type="number"  name="thal" placeholder="thal" required="required" />
+       
+        
+      <br>        
+       
+    <input type="submit" value="Click to check">
+        
+    </form>
+
+    </center>
+   
+   <!-- Show predicted output using ML model --> 
+   <div style="border: 2px red solid; position:relative; width:50%; left:25%;background-color: black; ">
+    <center>
+      <h1 style="color:white;"><strong>{{result}}</strong></h1>
+          </center>
+   </div>
+
+ </div>
+
+</body>
+</html>
